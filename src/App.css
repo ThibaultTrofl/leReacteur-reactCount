@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "Chivo Mono", monospace;
+  font-size: 48px;
+}
+
+/* ------Header----- */
+header {
+  height: fit-content;
+  border-bottom: solid 1px lightgray;
+}
+.container,
+.header-box {
+  height: 100%;
+}
+
+.header-box {
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 65px;
+}
+
+.header-box > i > svg {
+  height: 80px;
+  padding: 0;
+  color: blueviolet;
+}
+
+/* ------Main----- */
+main {
+  height: 80vh;
+}
+
+.main-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  /* border: solid 1px black; */
+}
+
+.count-box {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  /* border: solid 1px black; */
+}
+
+.button-sign {
+  width: 100px;
+  height: 70px;
+  background-color: white;
+  border: none;
+}
+
+.button-sign > svg {
+  height: 60px;
+}
+
+.count-box > p {
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -1px -1px rgba(158, 158, 158, 0.567);
+  font-family: "Chivo Mono", monospace;
+  font-size: 50px;
+}
+.button-reset {
+  width: 100px;
+  height: fit-content;
+  background-color: blueviolet;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -1px -1px rgba(158, 158, 158, 0.567);
+  font-family: "Chivo Mono", monospace;
+  font-weight: 100;
+  font-size: 30px;
+}
+
+/* ------Footer----- */
+footer {
+  height: fit-content;
+}
+.container,
+.footerer-box {
+  height: 100%;
+}
+
+.footer-box {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Chivo Mono", monospace;
+}
+
+.footer-box > p > a {
+  color: black;
+  font-weight: bold;
+}
